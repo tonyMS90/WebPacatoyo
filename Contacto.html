@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Formulario de Contacto</title>
+</head>
+<body class="fondowebformulario">
+    <form class="formulario" name="formulario de contacto" action="mailto:pacatoyo@gmail.com" method="post">
+        <fieldset class="fondoformulario">
+            <legend class="nombreformulario">Formulario de Contacto</legend>
+        <fieldset class="primeracajaformulario">
+            <legend class="epigrafeformulario">Nombre Completo</legend>   
+                <span class="datoobligatorio">*</span>Nombre: <input type="text" name="nombre" required>
+                <span class="datoobligatorio">*</span>Apellidos: <input type="text" name="apellidos" required>
+        </fieldset>
+    <br>
+        <fieldset class="primeracajaformulario">
+            <legend class="epigrafeformulario">Contacto</legend>  
+                <fieldset class="segundacajaformulario">
+                    <legend class="subepigrafeformulario">Dirección</legend>  
+                        Calle: <input type="text" name="calle"> Número: <input type="text" name="numero calle"> Piso:<input type="text" name="piso"> Código postal: <input type="text" name="código postal">   
+                     <br>Ciudad: <input type="text" name="ciudad"> País: <input type="text" name="país">
+                </fieldset>
+                <fieldset class="segundacajaformulario">
+                    <legend class="subepigrafeformulario">Teléfonos</legend>  
+                         Fijo: <input type="text" name="teléfono fijo"> <span class="datoobligatorio">*</span>Móvil: <input type="text" name="teléfono móvil" required>
+                </fieldset>
+                <fieldset class="segundacajaformulario" >
+                    <legend class="subepigrafeformulario">Correo electrónico</legend>
+                        <span class="datoobligatorio">*</span>e-mail: <input type="text" name="email"required>
+                </fieldset>
+        </fieldset>
+        <fieldset class="primeracajaformulario">
+            <legend class="epigrafeformulario">Servicios deseados</legend>  
+                Información general: <input type="radio" name="información general" value="G">
+                <br>Marketing:
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="M"> Desarrollo de estrategias de contenido</span> 
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="M"> Gestión de RRSS</span>
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="M"> Publicidad en línea</span>
+
+                <br>Posicionamiento SEO:
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="P"> Auditoría SEO</span>
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="P"> Optimización On-page</span>
+            
+                <br> Front-end:
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="F"> Diseño de Interfaz de Usuario</span>
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="F"> Integración de herramientas y plugins</span>
+            
+                <br>Back-end:
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="B"> Desarrollo de funcionalidades personalizadas</span>
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="B"> Seguridad del sitio web</span>
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="B"> Integración de bases de datos</span>
+                    <br><span class="opcionesservicios"><input type="radio" name="servicios" value="B"> Mantenimiento y soporte técnico</span>
+
+        </fieldset>
+                <br> Comentarios: 
+                <br><textarea name="comentarios" cols="80" rows="20"></textarea>
+                <img class="fotoformulario" src="img/green-pencil-with-positive-questionnaire.png">
+                <br>
+                    <input class="botonformulario" type="submit" value="Enviar formulario">
+                    <input class="botonformulario" type="reset" value="Borrar formulario">
+                    <input class="botonformulario" type="file" value="Adjuntar archivo">
+
+                    <div class="datoobligatorioleyenda"><span class="datoobligatorio">*</span>Campo obligatorio</span></div>
+
+    </form>
+
+</body>
+</html>

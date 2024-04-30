@@ -1,0 +1,68 @@
+/* Formulario de Contacto */
+/* Esta página web va a llevar un fondo blanco para facilitar la cumplimentación del formulario */
+.fondowebformulario{
+    background-color: white;
+}
+
+/* Las distintas secciones del formulario se han coloreado con tonos de la paleta de color elegida 
+    así como con cierto grado de transparencia para facilitar la lectura y la cumplimentación del mismo */
+.fondoformulario{
+    background-color:rgba(235, 247, 227, 0.294);
+}    
+.primeracajaformulario{
+ background-color: rgba(226, 242, 203, 0.513);
+}
+ 
+.segundacajaformulario{
+     background-color:  rgba(136, 164, 105, 0.15);
+}
+
+/* Formato general del formulario */
+.formulario{
+    font-size: 25px;
+    color: rgb(26, 64, 51);
+    line-height: 35px; 
+}
+
+/* Formato específico del formulario */
+.nombreformulario{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(26, 64, 51);
+}
+.epigrafeformulario{  
+    font-size: 28px;
+    font-weight: bold;   
+}
+.subepigrafeformulario{
+    font-size: 25px;
+    font-weight: bold;   
+}
+.opcionesservicios{
+    margin-left: 40px;
+}
+.datoobligatorio{
+    font-size: 45px;
+    color: rgba(0, 236, 102, 0.979);
+    font-weight: bold;
+}
+.datoobligatorioleyenda{
+    font-size: 25px;
+    color: rgb(0, 182, 79);;
+    font-weight: bold;  
+    margin-left: 80%;
+}
+.botonformulario{
+    font-size: 25px;
+    color: rgb(26, 64, 51) ;
+}
+
+/* Formato de la imagen del formulario */
+.fotoformulario{
+    height: 200px;
+    width: 200px;
+    opacity: 0.7;
+    filter: contrast(4);
+    margin: auto;}
+ 

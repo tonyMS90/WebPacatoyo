@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+article{
+    margin-left: 8%;
+    margin-top: 10%;
+    
+}
+aside{
+    float: left;
+    width: 58%;
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+b{
+    color:rgb(8, 126, 81) ;
+    font-size: 28px;
+}
+.btn{
+    display: inline-block;
+    background-color: transparent;
+    color:  rgb(17, 52, 27);
+    padding: 10px 15px;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Amasis MT Pro Medium;
+    border-radius: 100px;
+    text-align: center;
+    border: 2px solid  rgb(17, 52, 27);
+}
+.btn:hover{
+    background-color: rgb(8, 126, 81);
+}
+
+body{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.border-radius{
+    border-radius: 100px;
+}
+.business{
+    width: 53%;
+    height: 10%;
+    margin-left: 79%;
+    margin-top: -84%;
+    margin-bottom: 16%; 
+}
+.contacto{
+    width: 100px;
+}
+
+h2{
+    font-family: Amasis MT Pro Medium;
+    font-size: 45px;
+    color: rgb(8, 126, 81);
+    margin-top: 12%;
+    margin-right: -440px;
+    text-align: center;
+}
+.iconos{
+    margin-left: 10%;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin:1% 1%;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.nav > li{
+    float:left;
+    
+}
+.nav li a{
+    color:rgb(50, 152, 92); 
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: rgb(17, 52, 27);
+    color: rgb(58, 163, 112);
+}
+.nav li ul{
+    /*Ocultamos los submenus, y luego los mostraremos*/
+    display: none;
+    /*Establecemos una posición absoluta a los submenus, con un tamaño mínimo
+    de anchura para que todos sean iguales*/
+    position: absolute;
+    min-width: 185px;
+}
+.nav li:hover > ul {
+    /*Mostramos los submenus cuando sólo pasamos el ratón encima de la opción marcada*/
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.news{
+    display: flex;
+    margin-top: 10%;  
+}
+.news div{
+    width: 300px;
+    text-align: justify;
+    margin: 3% 3%;
+}
+.news img{
+    width: 300px;
+    height: 150px;
+}
+.news p b{
+    font-family: Amasis MT Pro Medium;
+    font-size: 22px;
+    color:  rgb(8, 126, 81);
+}
+.news br{
+    font-family: Amasis MT Pro Medium;
+    font-size: 16px;
+    color:  rgb(17, 52, 27);
+}
+.news a{
+    text-decoration: none;
+    color: rgb(8, 126, 81); ;
+}
+
+.menu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -120px;
+    margin-left: 650px;
+    width: 600px;
+}
+p{
+    font-family: Amasis MT Pro Medium;
+    font-size: 25px;
+    color: rgb(17, 52, 27);
+}
+.parrafo2{
+    font-family: Amasis MT Pro Medium;
+    font-size: 20px;
+    text-align: justify;
+}
+.proyectos{
+    width: 50%;
+    margin-left: 79%;
+    margin-top: -12%;
+    text-align: center;
+}
+section{
+    width: 70%;
+    height: 100%;
+    float: left;   
+}
+span{
+   text-align: center;
+   color:rgb(17, 52, 27);
+   margin-bottom: 85%;
+}
+.ubicacion{
+    font-family: Amasis MT Pro Medium;
+    font-size: 25px;
+    color: rgb(17, 52, 27);
+    margin-top: 10%;
+
+}
+.ubicacion iframe{
+    width: 300px;
+    height: 200px;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+
+/*css quienes somos*/
+
+.description{
+    display: inline;
+    position: relative;
+    left: 14px;
+    margin: 3px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    margin-left: 40%;
+}
+/*Creamos un efecto al pasar el ratón por encima de las imágenes*/
+.footer img:hover{
+    width: 70px;
+    height: 70px;
+    transition: 0.3s;
+}
+.nosotros li{
+    display: inline-block;
+    width: 45%;
+    margin: 3px;
+    padding: 3px;
+}
+.nosotros li img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 3px;
+}
+.nombre{
+    position: relative;
+    left: 170px;
+}
+.nombres{
+    display: inline;
+    position: relative;
+    top: 30px;
+}
+.p-nosotros{
+    margin: 20px 0px;
+}
+.qsomos{
+    width: 90%;
+}
+.qsomos article{
+    margin-top: 150px;
+}
